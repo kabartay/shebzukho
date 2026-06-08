@@ -19,6 +19,9 @@ const HTML_LANG   = { ru: 'ru', en: 'en', ady: 'kbd', tr: 'tr' };
 let lang = localStorage.getItem('lang') || 'ru';
 if (!LANGS.includes(lang)) lang = 'ru';
 
+// Holds the meta block (name, tagline) so the browser-tab <title> can be localised.
+let META = null;
+
 /** Pick the right string from a { ru, en, ady, tr } object. */
 function t(obj) {
     if (!obj) return '';
@@ -55,6 +58,12 @@ function setLang(l) {
     });
     const btn = document.getElementById('langToggle');
     if (btn) btn.textContent = LANG_LABELS[l];
+    updateDocTitle();
+}
+
+/** Localise the browser-tab <title> for the current language. */
+function updateDocTitle() {
+    if (META && META.name) document.title = t(META.name);
 }
 
 // ── Static UI strings (rendered in JS, not from content.json) ─────────
@@ -138,7 +147,7 @@ function renderHome(h, meta) {
     section.className = 'hero';
 
     const avatarHTML = h.photo
-        ? `<div class="hero-avatar"><img src="${h.photo}" alt="${meta.name}" loading="eager"></div>`
+        ? `<div class="hero-avatar"><img src="${h.photo}" alt="${t(meta.name)}" loading="eager"></div>`
         : '';
 
     const socialHTML = (h.social || []).map(s =>
@@ -312,10 +321,13 @@ async function loadPage() {
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const c = await res.json();
 
+        META = c.meta;
+
         const mount   = document.getElementById('all-sections');
         const loading = document.getElementById('loading-indicator');
 
         renderNav(c);
+        updateDocTitle();
 
         mount.appendChild(renderHome(c.home, c.meta));
         mount.appendChild(renderAbout(c.about));
