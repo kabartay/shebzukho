@@ -1,0 +1,65 @@
+/* =====================================================================
+   theme.css  —  Colour palettes
+
+   :root                  → Default: Forest Green
+   [data-palette="earth"] → Alternate: Earth / Wood / Amber
+
+   To add a third palette:
+     1. Add [data-palette="myname"] block here with the same tokens
+     2. Add { key: 'myname', attr: 'myname' } in theme-config.js
+   ===================================================================== */
+
+/* ── Default: Forest Green ──────────────────────────────────────────── */
+:root {
+    --primary:       #2d6a4f;
+    --primary-dark:  #1b4332;
+    --secondary:     #40916c;
+    --accent-text:   #2d6a4f;
+    --primary-rgb:   45, 106, 79;
+    --secondary-rgb: 64, 145, 108;
+    --bg-dark:       #192c21;
+
+    --gradient:      linear-gradient(135deg, #2d6a4f 0%, #52b788 100%);
+    --gradient-warm: linear-gradient(135deg, #2d6a4f 0%, #40916c 45%, #52b788 100%);
+    --gradient-dot:  linear-gradient(135deg, #2d6a4f 0%, #40916c 100%);
+    --gradient-line: linear-gradient(180deg, #2d6a4f 0%, #40916c 50%, #74c69d 100%);
+}
+
+[data-theme="dark"] {
+    --bg:      #0f1a14;
+    --bg-alt:  #162119;
+    --surface: #1e3028;
+    --nav-bg:  15, 26, 20;
+    --text-primary:   #e8f0ea;
+    --text-secondary: #90a896;
+    --text-light:     #567060;
+}
+
+[data-theme="dark"][data-palette="earth"] {
+    --bg:      #1a1108;
+    --bg-alt:  #221709;
+    --surface: #2d1f0e;
+    --nav-bg:  26, 17, 8;
+    --text-primary:   #f0ebe4;
+    --text-secondary: #a89880;
+    --text-light:     #7a6450;
+}
+
+/* ── Alternate: Earth / Wood / Stone ────────────────────────────────── */
+/*   Dark browns:  #7c3f00 #633200 #562b00 #492201 #3e1c00              */
+/*   Warm taupes:  #988374 #ac9b8e #c0b3a9 #d5ccc5 #eae5e2              */
+[data-palette="earth"] {
+    --primary:       #7c3f00;   /* rich dark brown   */
+    --primary-dark:  #492201;   /* deepest brown     */
+    --secondary:     #633200;   /* mid brown         */
+    --accent-text:   #7c3f00;   /* link / date text  */
+    --primary-rgb:   124, 63, 0;
+    --secondary-rgb: 99, 50, 0;
+    --bg-dark:       #3e1c00;   /* deep brown — contact & footer */
+
+    /* Hero opens on warm taupe (#988374), deepens into rich brown      */
+    --gradient:      linear-gradient(135deg, #988374 0%, #7c3f00 100%);
+    --gradient-warm: linear-gradient(135deg, #988374 0%, #7c3f00 55%, #492201 100%);
+    --gradient-dot:  linear-gradient(135deg, #7c3f00 0%, #562b00 100%);
+    --gradient-line: linear-gradient(180deg, #7c3f00 0%, #633200 50%, #ac9b8e 100%);
+}
