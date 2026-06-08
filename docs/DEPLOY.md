@@ -91,13 +91,13 @@ shebzukho/
 
 ---
 
-## 📦 Версионирование (GitHub Releases)
+## 📦 Версии (GitHub Releases)
 
 Чтобы зафиксировать версию сайта:
 
 ```bash
-git tag v1.2.0
-git push origin v1.2.0
+git tag v1.0.0
+git push origin v1.0.0
 ```
 
 GitHub Actions автоматически создаст Release с ZIP-архивом папки `public/`.
