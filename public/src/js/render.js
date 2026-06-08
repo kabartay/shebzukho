@@ -288,7 +288,7 @@ function renderFooter(c) {
     footer.innerHTML = `
         <div class="container">
             <p>© ${year} ${c.footer.name}</p>
-            <p class="footer-disclaimer">Instagram и Facebook — продукты компании Meta, деятельность которой запрещена на территории РФ. WhatsApp и Telegram признаны экстремистскими организациями на территории РФ.</p>
+            <p class="footer-disclaimer">Instagram и Facebook — продукты компании Meta, деятельность которой запрещена и признана на территории РФ экстремистской. Также экстремистскими признаны WhatsApp и Telegram.</p>
         </div>
     `;
 }
