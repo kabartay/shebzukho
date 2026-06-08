@@ -781,5 +781,5 @@ body, .navbar, .project-card, .timeline-card-body,
 
 /* ── Dark: loading & footer ────────────────────────────────────────── */
 [data-theme="dark"] .loading            { background: var(--bg); color: var(--text-light); }
-[data-theme="dark"] .footer             { color: rgba(255,255,255,0.75); }
-[data-theme="dark"] .footer-disclaimer  { color: rgba(255,255,255,0.5); }
+[data-theme="dark"] .footer             { color: #e8f0ea !important; }
+[data-theme="dark"] .footer-disclaimer  { color: rgba(232,240,234,0.6) !important; }
