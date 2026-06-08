@@ -27,5 +27,7 @@ jobs:
           name: Release ${{ github.ref_name }}
           tag_name: ${{ github.ref_name }}
           files: dist/*.zip
+          prerelease: false
+          make_latest: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
