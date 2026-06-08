@@ -1,9 +1,14 @@
 {
   "meta": {
-    "name": "Астемир Шебзухов",
+    "name": {
+      "ru":  "Астемир Шебзухов",
+      "en":  "Astemir Shebzukhov",
+      "ady": "Шыбзыхъуэ Iэстемыр",
+      "tr":  "Astemir Şebzuho"
+    },
     "tagline": {
       "ru":  "Научный журналист · Генеалог · Преподаватель черкесского языка",
-      "en":  "Science journalist · Genealogist · Circassian language teacher",
+      "en":  "Journalist · Genealogist · Circassian language teacher",
       "ady": "ЩIэныгъэ журнэлист · ЛIакъуэдж · Адыгэбзэ егъэджакIуэ",
       "tr":  "Bilim gazetecisi · Soybilimci · Çerkes dili öğretmeni"
     },
@@ -15,7 +20,7 @@
     "home":      { "ru": "Главная",      "en": "Home",       "ady": "ХьэщIапIэм",      "tr": "Ana Sayfa"   },
     "about":     { "ru": "Обо мне",      "en": "About",      "ady": "Сэ стеухуауэ",    "tr": "Hakkımda"    },
     "activity":  { "ru": "Деятельность", "en": "Activities", "ady": "Лэжьыгъэ",        "tr": "Faaliyetler" },
-    "education": { "ru": "Образование",  "en": "Education",  "ady": "ЩIэныгъуэ",       "tr": "Eğitim"      },
+    "education": { "ru": "Образование",  "en": "Education",  "ady": "ЩIэныгъэ",        "tr": "Eğitim"      },
     "contact":   { "ru": "Контакты",     "en": "Contact",    "ady": "ЗэпыщIэныгъэ",    "tr": "İletişim"    }
   },
 
@@ -24,13 +29,13 @@
     "initials": "АШ",
     "name": {
       "ru":  "Астемир Шебзухов",
-      "en":  "Astemir Shebzukho",
+      "en":  "Astemir Shebzukhov",
       "ady": "Шыбзыхъуэ Iэстемыр",
       "tr":  "Astemir Şebzuho"
     },
     "subtitle": {
       "ru":  "Научный журналист · Генеалог · Преподаватель черкесского языка",
-      "en":  "Science journalist · Genealogist · Circassian language teacher",
+      "en":  "Journalist · Genealogist · Circassian language teacher",
       "ady": "ЩIэныгъэ журнэлист · ЛIакъуэдж · Адыгэбзэ егъэджакIуэ",
       "tr":  "Bilim gazetecisi · Soybilimci · Çerkes dili öğretmeni"
     },
@@ -53,13 +58,13 @@
     "paragraphs": [
      {
         "ru": "С марта 2026 года веду онлайн-подкасты **«Гъэрэ щIырэ. Свет и тьма черкесского бытия»**, в рамках которых занимаюсь **реконструкцией образа жизни черкесов конца XVIII – начала XIX вв.** Обращаясь к различным областям знаний (генетика, лингвистика, археология, этнография, фольклористика, история и т.д.) и анализируя большой массив накопленных данных, я объясняю доступным языком, чем жили черкесы в обозначенный период времени. **Цель — дать для широкой аудитории ясную, неприукрашенную картину адыгской действительности.** !!Подписка платная!!",
-        "en": "Since March 2026 I have been hosting the online podcast series **«Гъэрэ щIырэ. Light and Darkness of Circassian Life»**, in which I work on **reconstructing the way of life of the Circassians in the late 18th – early 19th centuries**. Drawing on a range of disciplines (genetics, linguistics, archaeology, ethnography, folklore studies, history, and others) and analysing a large body of accumulated data, I explain in accessible language what Circassian life was really like in that period. **The goal is to give a wide audience a clear, unvarnished picture of Circassian life.** !!Paid subscription!!",
+        "en": "Since March 2026 I have been hosting the online podcast series **«Gare Shchire. Light and Darkness of Circassian Life»**, in which I work on **reconstructing the way of life of the Circassians in the late 18th – early 19th centuries**. Drawing on a range of disciplines (genetics, linguistics, archaeology, ethnography, folklore studies, history, and others) and analysing a large body of accumulated data, I explain in accessible language what Circassian life was really like in that period. **The goal is to give a wide audience a clear, unvarnished picture of Circassian life.** !!Paid subscription!!",
         "ady": "",
         "tr": ""
       },
     {
         "ru": "В области черкесского языкознания мои интересы сводятся к идее **создания лингвистического корпуса, разработке методики преподавания и формированию полного лексического фонда языка**. Работа в этих направлениях ведётся вместе с единомышленниками в рамках языкового клуба [«Djarez»](https://www.instagram.com/djarez.club). В ноябре 2025 года был опубликован первый вариант [корпуса черкесского языка](https://corpus.djarez.club/), разработанный совместно с Международной лабораторией языковой конвергенции и Школой лингвистики НИУ «Высшая школа экономики» (Кс. Дунаева, С. Кузнецова, А.Д. Ландер, Ю.А. Ландер). В первом варианте корпус вобрал в себя **58 млн словоформ на двух диалектах черкесского языка** — на данный момент это наиболее обширная база электронных текстов на адыгском языке. Ведётся непрерывная работа по совершенствованию функционала корпуса и пополнению текстовой базы. Также разрабатываю **методику преподавания кабардинского диалекта черкесского языка в онлайн-формате**; в дальнейшем собираюсь открыть **курсы по обучению адыгэбзэ**.",
-        "en": "In the field of Circassian linguistics my interests centre on **building a linguistic corpus, developing a teaching methodology, and compiling a comprehensive lexicon of the language**. This work is carried out together with like-minded colleagues within the [«Djarez»](https://www.instagram.com/djarez.club) language club. In November 2025 the first version of the [Circassian language corpus](https://corpus.djarez.club/) was published, developed jointly with the International Laboratory of Language Convergence and the School of Linguistics at HSE University (Ks. Dunaeva, S. Kuznetsova, A.D. Lander, Yu.A. Lander). In its first release the corpus contains **58 million word forms across two dialects of Circassian** — currently the largest collection of electronic texts in the Circassian language. Continuous work is underway to improve the corpus's functionality and expand its text base. I am also developing an **online teaching methodology for the Kabardian dialect of Circassian** and plan to open **Adyghe language courses** in the future.",
+        "en": "In the field of Circassian linguistics my interests centre on **building a linguistic corpus, developing a teaching methodology, and compiling a comprehensive lexicon of the language**. This work is carried out together with like-minded colleagues within the [«Djarez»](https://www.instagram.com/djarez.club) language club. In November 2025 the first version of the [Circassian language corpus](https://corpus.djarez.club/) was published, developed jointly with the International Laboratory of Language Convergence and the School of Linguistics at HSE University (Ks. Dunaeva, S. Kuznetsova, A.D. Lander, Yu.A. Lander). In its first release the corpus contains **58 million word forms across two dialects of Circassian** — currently the largest collection of electronic texts in the Circassian language. Continuous work is underway to improve the corpus's functionality and expand its text base. I am also developing an **online teaching methodology for the Kabardian dialect of Circassian** and plan to open **Circassian language courses** in the future.",
         "ady": "",
         "tr": ""
       },
@@ -87,7 +92,7 @@
         "icon": "🎙️",
         "title": {
           "ru": "Подкаст «Гъэрэ щIырэ»",
-          "en": "Podcast «Гъэрэ щIырэ»",
+          "en": "Podcast «Gare Shchire»",
           "ady": "",
           "tr": ""
         },
@@ -125,7 +130,7 @@
         },
         "description": {
           "ru": "Изучение черкесских родов: генеалогия и ДНК",
-          "en": "Tracing Circassian lineages through genealogy and DNA",
+          "en": "Tracing Circassian lineages through genealogy and DNA.",
           "ady": "",
           "tr": ""
         },
@@ -157,7 +162,7 @@
         },
         "description": {
           "ru": "Медиаплатформа об адыгском гуманитарном знании",
-          "en": "Media platform on Adyghe humanities.",
+          "en": "Media platform on Circassian humanities.",
           "ady": "",
           "tr": ""
         },
@@ -261,7 +266,7 @@
   },
 
   "education": {
-    "title": { "ru": "Образование", "en": "Education", "ady": "Еджэныгъэ", "tr": "Eğitim" },
+    "title": { "ru": "Образование", "en": "Education", "ady": "ЩIэныгъэ", "tr": "Eğitim" },
     "items": [
       {
         "period": { "ru": "2014 – 2016", "en": "2014 – 2016", "ady": "", "tr": "" },
