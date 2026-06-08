@@ -4,7 +4,7 @@
     "tagline": {
       "ru":  "Научный журналист · Генеалог · Преподаватель черкесского языка",
       "en":  "Science journalist · Genealogist · Circassian language teacher",
-      "ady": "ЩIэныгъэ журналист · ЛIакъуэдж · Адыгэбзэ егъэджакIуэ",
+      "ady": "ЩIэныгъэ журнэлист · ЛIакъуэдж · Адыгэбзэ егъэджакIуэ",
       "tr":  "Bilim gazetecisi · Soybilimci · Çerkes dili öğretmeni"
     },
     "description": "Астемир Шебзухов — научный журналист, генеалог, преподаватель черкесского языка. Исследователь адыгской культуры, истории и языка.",
@@ -31,7 +31,7 @@
     "subtitle": {
       "ru":  "Научный журналист · Генеалог · Преподаватель черкесского языка",
       "en":  "Science journalist · Genealogist · Circassian language teacher",
-      "ady": "ЩIэныгъэ журналист · ЛIакъуэдж · Адыгэбзэ егъэджакIуэ",
+      "ady": "ЩIэныгъэ журнэлист · ЛIакъуэдж · Адыгэбзэ егъэджакIуэ",
       "tr":  "Bilim gazetecisi · Soybilimci · Çerkes dili öğretmeni"
     },
     "cta": {
@@ -51,41 +51,66 @@
   "about": {
     "title": { "ru": "Обо мне", "en": "About Me", "ady": "Сэ стеухуауэ", "tr": "Hakkımda" },
     "paragraphs": [
-      "С марта 2026 года веду онлайн-подкасты **«Гъэрэ щIырэ. Свет и тьма черкесского бытия»**, в рамках которых занимаюсь **реконструкцией образа жизни черкесов конца XVIII – начала XIX вв.** Обращаясь к различным областям знаний (генетика, лингвистика, археология, этнография, фольклористика, история и т.д.) и анализируя большой массив накопленных данных, я объясняю доступным языком, чем жили черкесы в обозначенный период времени. **Цель — дать для широкой аудитории ясную, неприукрашенную картину адыгской действительности.** !!Подписка платная!!",
-      "В области черкесского языкознания мои интересы сводятся к идее **создания лингвистического корпуса, разработке методики преподавания и формированию полного лексического фонда языка**. Работа в этих направлениях ведётся вместе с единомышленниками в рамках языкового клуба [«Djarez»](https://www.instagram.com/djarez.club). В ноябре 2025 года был опубликован первый вариант [корпуса черкесского языка](https://corpus.djarez.club/), разработанный совместно с Международной лабораторией языковой конвергенции и Школой лингвистики НИУ «Высшая школа экономики» (Кс. Дунаева, С. Кузнецова, А.Д. Ландер, Ю.А. Ландер). В первом варианте корпус вобрал в себя **58 млн словоформ на двух диалектах черкесского языка** — на данный момент это наиболее обширная база электронных текстов на адыгском языке. Ведётся непрерывная работа по совершенствованию функционала корпуса и пополнению текстовой базы. Также разрабатываю **методику преподавания кабардинского диалекта черкесского языка в онлайн-формате**; в дальнейшем собираюсь открыть **курсы по обучению адыгэбзэ**.",
-      "Следующей сферой моих интересов является **исследование генеалогии адыгских родов** ([Tlako Project](https://www.instagram.com/tlako_project)). С 2021 года — соадминистратор [Черкесского ДНК проекта](https://t.me/circassianftdna), поэтому в рамках своих изысканий делаю большой упор на **ДНК-генеалогию**. Ведётся работа и с архивными документами; большим подспорьем в исследованиях служат языковые корпуса и личные электронные базы данных для автоматической обработки массивов информации. При желании заказчика можно **разработать родовое древо, написать книгу и снять документальный фильм о роде**.",
-      "С 2019 года реализую проект [«Мэз»](https://www.instagram.com/mez_project) («Лес») о **культуре черкесского садоводства и лесопользования**. За это время изучено множество материалов и осуществлено **10 экспедиций** в различные уголки исторической Черкесии. Удалось записать десятки интервью, зафиксировать большое количество локаций, имеющих краеугольное значение для понимания культуры садоводства и лесопользования черкесов. Результатом проекта должен стать **документальный, научно-популярный фильм**, который можно будет показывать в кинотеатрах.",
-      "С 2010 года веду страницы в социальных сетях, посвящённые **вопросам адыгского гуманитарного знания и проблемам современности**. Наиболее крупными площадками являются страницы [«Hunug.media»](https://www.instagram.com/hunug.media), также представленные [ВКонтакте](https://vk.ru/hunug.media), в [Одноклассниках](https://ok.ru/group/hunug.media) и [Facebook](https://www.facebook.com/hunug.media)."
+      {
+        "ru": "С марта 2026 года веду онлайн-подкасты **«Гъэрэ щIырэ. Свет и тьма черкесского бытия»**, в рамках которых занимаюсь **реконструкцией образа жизни черкесов конца XVIII – начала XIX вв.** Обращаясь к различным областям знаний (генетика, лингвистика, археология, этнография, фольклористика, история и т.д.) и анализируя большой массив накопленных данных, я объясняю доступным языком, чем жили черкесы в обозначенный период времени. **Цель — дать для широкой аудитории ясную, неприукрашенную картину адыгской действительности.** !!Подписка платная!!",
+        "en": "Since March 2026 I have been hosting the online podcast series **«Gare Shchire. Light and Darkness of Circassian Life»**, in which I work on **reconstructing the way of life of the Circassians in the late 18th – early 19th centuries**. Drawing on various fields of knowledge (genetics, linguistics, archaeology, ethnography, folklore studies, history, etc.) and analysing a large body of accumulated data, I explain in accessible language how the Circassians lived during that period. **The goal is to give a wide audience a clear, unvarnished picture of Adyghe reality.** !!Subscription required!!",
+        "ady": "",
+        "tr": ""
+      },
+      {
+        "ru": "В области черкесского языкознания мои интересы сводятся к идее **создания лингвистического корпуса, разработке методики преподавания и формированию полного лексического фонда языка**. Работа в этих направлениях ведётся вместе с единомышленниками в рамках языкового клуба [«Djarez»](https://www.instagram.com/djarez.club). В ноябре 2025 года был опубликован первый вариант [корпуса черкесского языка](https://corpus.djarez.club/), разработанный совместно с Международной лабораторией языковой конвергенции и Школой лингвистики НИУ «Высшая школа экономики» (Кс. Дунаева, С. Кузнецова, А.Д. Ландер, Ю.А. Ландер). В первом варианте корпус вобрал в себя **58 млн словоформ на двух диалектах черкесского языка** — на данный момент это наиболее обширная база электронных текстов на адыгском языке. Ведётся непрерывная работа по совершенствованию функционала корпуса и пополнению текстовой базы. Также разрабатываю **методику преподавания кабардинского диалекта черкесского языка в онлайн-формате**; в дальнейшем собираюсь открыть **курсы по обучению адыгэбзэ**.",
+        "en": "In the field of Circassian linguistics my interests centre on **building a linguistic corpus, developing teaching methodologies, and compiling a complete lexical fund of the language**. This work is carried out together with like-minded colleagues within the [«Djarez»](https://www.instagram.com/djarez.club) language club. In November 2025 the first version of the [Circassian language corpus](https://corpus.djarez.club/) was published, developed jointly with the International Laboratory of Language Convergence and the School of Linguistics at HSE University (Ks. Dunaeva, S. Kuznetsova, A.D. Lander, Yu.A. Lander). In its first release the corpus contains **58 million word forms across two dialects of Circassian** — currently the most extensive electronic text base in the Adyghe language. Continuous work is underway to improve the corpus functionality and expand the text base. I am also developing an **online teaching methodology for the Kabardian dialect of Circassian** and plan to open **Adyghe language courses** in the future.",
+        "ady": "",
+        "tr": ""
+      },
+      {
+        "ru": "Следующей сферой моих интересов является **исследование генеалогии адыгских родов** ([Tlako Project](https://www.instagram.com/tlako_project)). С 2021 года — соадминистратор [Черкесского ДНК проекта](https://t.me/circassianftdna), поэтому в рамках своих изысканий делаю большой упор на **ДНК-генеалогию**. Ведётся работа и с архивными документами; большим подспорьем в исследованиях служат языковые корпуса и личные электронные базы данных для автоматической обработки массивов информации. При желании заказчика можно **разработать родовое древо, написать книгу и снять документальный фильм о роде**.",
+        "en": "Another area of my interests is **researching the genealogy of Adyghe clans** ([Tlako Project](https://www.instagram.com/tlako_project)). Since 2021 I have been a co-administrator of the [Circassian DNA Project](https://t.me/circassianftdna), so in my research I place great emphasis on **DNA genealogy**. I also work with archival documents; linguistic corpora and personal electronic databases for automated processing of large data sets are invaluable tools in this research. On request it is possible to **build a family tree, write a book, and produce a documentary film about a clan**.",
+        "ady": "",
+        "tr": ""
+      },
+      {
+        "ru": "С 2019 года реализую проект [«Мэз»](https://www.instagram.com/mez_project) («Лес») о **культуре черкесского садоводства и лесопользования**. За это время изучено множество материалов и осуществлено **10 экспедиций** в различные уголки исторической Черкесии. Удалось записать десятки интервью, зафиксировать большое количество локаций, имеющих краеугольное значение для понимания культуры садоводства и лесопользования черкесов. Результатом проекта должен стать **документальный, научно-популярный фильм**, который можно будет показывать в кинотеатрах.",
+        "en": "Since 2019 I have been running the [«Mez»](https://www.instagram.com/mez_project) project («Forest»), focused on **the culture of Circassian horticulture and forest use**. Over this time I have studied numerous materials and conducted **10 expeditions** to various corners of historical Circassia. Dozens of interviews have been recorded and a large number of locations of cornerstone significance for understanding Circassian horticultural and forest culture have been documented. The expected outcome of the project is a **documentary popular-science film** suitable for cinema screenings.",
+        "ady": "",
+        "tr": ""
+      },
+      {
+        "ru": "С 2010 года веду страницы в социальных сетях, посвящённые **вопросам адыгского гуманитарного знания и проблемам современности**. Наиболее крупными площадками являются страницы [«Hunug.media»](https://www.instagram.com/hunug.media), также представленные [ВКонтакте](https://vk.ru/hunug.media), в [Одноклассниках](https://ok.ru/group/hunug.media) и [Facebook](https://www.facebook.com/hunug.media).",
+        "en": "Since 2010 I have been running social media pages dedicated to **Adyghe humanities and contemporary issues**. The largest platforms are the [«Hunug.media»](https://www.instagram.com/hunug.media) pages, also present on [VKontakte](https://vk.ru/hunug.media), [Odnoklassniki](https://ok.ru/group/hunug.media) and [Facebook](https://www.facebook.com/hunug.media).",
+        "ady": "",
+        "tr": ""
+      }
     ],
     "projects": [
       {
         "icon": "🎙️",
-        "title": "Подкаст «Гъэрэ щIырэ»",
-        "description": "Реконструкция образа жизни черкесов конца XVIII – начала XIX вв.",
+        "title": { "ru": "Подкаст «Гъэрэ щIырэ»", "en": "Podcast «Gare Shchire»", "ady": "", "tr": "" },
+        "description": { "ru": "Реконструкция образа жизни черкесов конца XVIII – начала XIX вв.", "en": "Reconstructing Circassian life in the late 18th – early 19th centuries.", "ady": "", "tr": "" },
         "url": null
       },
       {
         "icon": "📖",
-        "title": "Языковой клуб «Djarez»",
-        "description": "Корпус черкесского языка — 58 млн словоформ на двух диалектах",
+        "title": { "ru": "Языковой клуб «Djarez»", "en": "Language Club «Djarez»", "ady": "", "tr": "" },
+        "description": { "ru": "Корпус черкесского языка — 58 млн словоформ на двух диалектах", "en": "Circassian language corpus — 58 million word forms across two dialects.", "ady": "", "tr": "" },
         "url": "https://www.instagram.com/djarez.club"
       },
       {
         "icon": "🧬",
-        "title": "Проект «Circassian DNA»",
-        "description": "Генеалогические и ДНК-исследования адыгских родов",
+        "title": { "ru": "Проект «Circassian DNA»", "en": "Project «Circassian DNA»", "ady": "", "tr": "" },
+        "description": { "ru": "Генеалогические и ДНК-исследования адыгских родов", "en": "Genealogical and DNA research of Adyghe clans.", "ady": "", "tr": "" },
         "url": "https://t.me/circassianftdna"
       },
       {
         "icon": "🌲",
-        "title": "Проект «Мэз»",
-        "description": "Культура черкесского садоводства и лесопользования",
+        "title": { "ru": "Проект «Мэз»", "en": "Project «Mez»", "ady": "", "tr": "" },
+        "description": { "ru": "Культура черкесского садоводства и лесопользования", "en": "The culture of Circassian horticulture and forest use.", "ady": "", "tr": "" },
         "url": "https://www.instagram.com/mez_project"
       },
       {
         "icon": "📰",
-        "title": "Hunug.media",
-        "description": "Медиаплатформа об адыгском гуманитарном знании",
+        "title": { "ru": "Hunug.media", "en": "Hunug.media", "ady": "", "tr": "" },
+        "description": { "ru": "Медиаплатформа об адыгском гуманитарном знании", "en": "Media platform on Adyghe humanities.", "ady": "", "tr": "" },
         "url": "https://www.instagram.com/hunug.media"
       }
     ]

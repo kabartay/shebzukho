@@ -163,12 +163,12 @@ function renderAbout(a) {
                     <div class="project-icon" aria-hidden="true">${p.icon}</div>
                     <div class="project-body">
                         <h4>${p.url
-                            ? `<a href="${p.url}" target="_blank" rel="noopener noreferrer">${p.title}</a>`
-                            : p.title}</h4>
+                            ? `<a href="${p.url}" target="_blank" rel="noopener noreferrer">${t(p.title)}</a>`
+                            : t(p.title)}</h4>
                     </div>
                 </div>
             </div>
-            <p class="about-para">${parseLinks(para)}</p>
+            <p class="about-para">${parseLinks(t(para))}</p>
         </div>`;
     }).join('');
 
