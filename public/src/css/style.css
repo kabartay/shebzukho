@@ -582,7 +582,9 @@ section { padding: 5rem 0; }
 .contact-icon--youtube   { background: #FF0000; }
 .contact-icon--telegram  { background: #26A5E4; }
 .contact-icon--ok        { background: #F4742B; }
-[class*="contact-icon--"] { color: white; } ─────────────────────────────────────────────────────────── */
+[class*="contact-icon--"] { color: white; }
+
+/* ── Footer ─────────────────────────────────────────────────────────── */
 .footer {
     background: var(--bg-dark); color: rgba(255,255,255,0.7);
     text-align: center; padding: 1.75rem 0;
