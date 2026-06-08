@@ -336,7 +336,7 @@ section { padding: 5rem 0; }
 
 .about-row {
     display: grid;
-    grid-template-columns: 240px 1fr;
+    grid-template-columns: 262px 1fr;
     gap: 2.25rem;
     align-items: start;
 }
@@ -405,7 +405,7 @@ section { padding: 5rem 0; }
 .project-icon { font-size: 1.2rem; flex-shrink: 0; line-height: 1; }
 
 .project-body h4 {
-    font-size: 0.78rem; font-weight: 700; color: var(--text-primary);
+    font-size: 0.93rem; font-weight: 700; color: var(--text-primary);
     line-height: 1.35; margin: 0;
 }
 
