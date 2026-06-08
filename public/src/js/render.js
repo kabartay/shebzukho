@@ -29,7 +29,11 @@ function t(obj) {
 /** Build data-ru/en/tr/ady attribute string for an element. */
 function dataAttrs(obj) {
     if (!obj || typeof obj === 'string') return '';
-    const safe = s => (s || '').replace(/"/g, '&quot;');
+    const safe = s => (s || '')
+        .replace(/&/g, '&amp;')
+        .replace(/"/g, '&quot;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
     return `data-ru="${safe(obj.ru)}" data-en="${safe(obj.en || obj.ru)}" data-ady="${safe(obj.ady || obj.ru)}" data-tr="${safe(obj.tr || obj.ru)}"`;
 }
 
@@ -38,8 +42,13 @@ function setLang(l) {
     lang = l;
     localStorage.setItem('lang', l);
     document.documentElement.lang = HTML_LANG[l] || 'ru';
-    document.querySelectorAll('[data-ru]').forEach(el => {
+    // Plain-text elements — swap textContent
+    document.querySelectorAll('[data-ru]:not(.rich-text)').forEach(el => {
         el.textContent = el.dataset[l] || el.dataset.ru;
+    });
+    // Rich-text elements — re-parse inline markup (**bold**, *italic*, links, badges)
+    document.querySelectorAll('.rich-text[data-ru]').forEach(el => {
+        el.innerHTML = parseLinks(el.dataset[l] || el.dataset.ru);
     });
     document.querySelectorAll('.item-link').forEach(el => {
         el.textContent = UI.read_more[l] || UI.read_more.ru;
@@ -158,19 +167,20 @@ function renderAbout(a) {
 
     const rowsHTML = a.projects.map((p, i) => {
         const para = a.paragraphs[i] ?? '';
+        const titleInner = p.url
+            ? `<a href="${p.url}" target="_blank" rel="noopener noreferrer" ${dataAttrs(p.title)}>${t(p.title)}</a>`
+            : `<span ${dataAttrs(p.title)}>${t(p.title)}</span>`;
         return `
         <div class="about-row fade-in">
             <div class="project-card">
                 <div class="project-card-top">
                     <div class="project-icon" aria-hidden="true">${p.icon}</div>
                     <div class="project-body">
-                        <h4>${p.url
-                            ? `<a href="${p.url}" target="_blank" rel="noopener noreferrer">${t(p.title)}</a>`
-                            : t(p.title)}</h4>
+                        <h4>${titleInner}</h4>
                     </div>
                 </div>
             </div>
-            <p class="about-para">${parseLinks(t(para))}</p>
+            <p class="about-para rich-text" ${dataAttrs(para)}>${parseLinks(t(para))}</p>
         </div>`;
     }).join('');
 
@@ -194,12 +204,12 @@ function renderActivity(act) {
             <div class="timeline-card-body">
                 <div class="timeline-card-header">
                     <div class="timeline-card-info">
-                        <h3>${item.title}</h3>
-                        <p class="timeline-org">${item.organization}</p>
+                        <h3 ${dataAttrs(item.title)}>${t(item.title)}</h3>
+                        <p class="timeline-org" ${dataAttrs(item.organization)}>${t(item.organization)}</p>
                     </div>
-                    <span class="timeline-period">${item.period}</span>
+                    <span class="timeline-period" ${dataAttrs(item.period)}>${t(item.period)}</span>
                 </div>
-                <p>${parseLinks(item.description)}</p>
+                <p class="rich-text" ${dataAttrs(item.description)}>${parseLinks(t(item.description))}</p>
                 ${item.url
                     ? `<a href="${item.url}" class="item-link"
                           target="_blank" rel="noopener noreferrer">${t(UI.read_more)}</a>`
@@ -230,14 +240,14 @@ function renderEducation(edu) {
             <div class="timeline-card-body">
                 <div class="timeline-card-header">
                     <div class="timeline-card-info">
-                        <h3>${item.degree}</h3>
-                        <p class="timeline-org">${item.institution}</p>
+                        <h3 ${dataAttrs(item.degree)}>${t(item.degree)}</h3>
+                        <p class="timeline-org" ${dataAttrs(item.institution)}>${t(item.institution)}</p>
                     </div>
-                    <span class="timeline-period">${item.period}</span>
+                    <span class="timeline-period" ${dataAttrs(item.period)}>${t(item.period)}</span>
                 </div>
-                <div class="edu-meta">${locationIcon} ${item.location}</div>
+                <div class="edu-meta">${locationIcon} <span ${dataAttrs(item.location)}>${t(item.location)}</span></div>
                 <div class="edu-tags">
-                    ${item.highlights.map(h => `<span class="edu-tag">${h}</span>`).join('')}
+                    ${item.highlights.map(h => `<span class="edu-tag" ${dataAttrs(h)}>${t(h)}</span>`).join('')}
                 </div>
             </div>
         </div>`

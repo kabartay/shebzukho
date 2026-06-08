@@ -170,31 +170,91 @@
     "title": { "ru": "Деятельность", "en": "Activities", "ady": "Лэжьыгъэ", "tr": "Faaliyetler" },
     "items": [
       {
-        "period": "2021 – наст. вр.",
-        "title": "Соадминистратор",
-        "organization": "Проект «Circassian DNA»",
-        "description": "За период с 2016 года протестировано около 1600 представителей абхазо-адыгских народов. Выявлены неизвестные межродовые связи, восстановлены разорванные родственные узы, решены вопросы в области генеалогии и этногенеза адыгов и народов Северного Кавказа. Проект имеет неоценимую культурно-историческую и социально-гуманитарную значимость.",
+        "period": { "ru": "2021 – наст. вр.", "en": "2021 – present", "ady": "", "tr": "" },
+        "title": {
+          "ru": "Соадминистратор",
+          "en": "Co-administrator",
+          "ady": "",
+          "tr": ""
+        },
+        "organization": {
+          "ru": "Проект «Circassian DNA»",
+          "en": "Circassian DNA Project",
+          "ady": "",
+          "tr": ""
+        },
+        "description": {
+          "ru": "За период с 2016 года протестировано около 1600 представителей абхазо-адыгских народов. Выявлены неизвестные межродовые связи, восстановлены разорванные родственные узы, решены вопросы в области генеалогии и этногенеза адыгов и народов Северного Кавказа. Проект имеет неоценимую культурно-историческую и социально-гуманитарную значимость.",
+          "en": "Since 2016, around 1,600 representatives of the Abkhaz-Adyghe peoples have been DNA-tested. The project has uncovered previously unknown inter-clan connections, restored broken kinship ties, and resolved questions in the genealogy and ethnogenesis of the Circassians and other peoples of the North Caucasus. It carries invaluable cultural, historical, and human significance.",
+          "ady": "",
+          "tr": ""
+        },
         "url": "https://www.circassiandna.com"
       },
       {
-        "period": "2020 – 2025",
-        "title": "Соучредитель и координатор",
-        "organization": "Языковой клуб «Djarez»",
-        "description": "Создание лингвистического корпуса черкесского языка, разработка методики преподавания, формирование полного лексического фонда языка.",
+        "period": { "ru": "2020 – 2025", "en": "2020 – 2025", "ady": "", "tr": "" },
+        "title": {
+          "ru": "Соучредитель и координатор",
+          "en": "Co-founder and coordinator",
+          "ady": "",
+          "tr": ""
+        },
+        "organization": {
+          "ru": "Языковой клуб «Djarez»",
+          "en": "«Djarez» Language Club",
+          "ady": "",
+          "tr": ""
+        },
+        "description": {
+          "ru": "Создание лингвистического корпуса черкесского языка, разработка методики преподавания, формирование полного лексического фонда языка.",
+          "en": "Building a linguistic corpus of the Circassian language, developing teaching methodologies, and compiling a comprehensive lexicon of the language.",
+          "ady": "",
+          "tr": ""
+        },
         "url": "https://www.instagram.com/djarez.club"
       },
       {
-        "period": "2015 – 2021",
-        "title": "Автор и ведущий программ на адыгском языке",
-        "organization": "ВТК «Кабардино-Балкария» («1 КБР»)",
-        "description": "Программы о культуре, истории, этнографии и фольклоре адыгов. Снято несколько десятков телепередач на эти темы.",
+        "period": { "ru": "2015 – 2021", "en": "2015 – 2021", "ady": "", "tr": "" },
+        "title": {
+          "ru": "Автор и ведущий программ на адыгском языке",
+          "en": "Author and host of Adyghe-language programmes",
+          "ady": "",
+          "tr": ""
+        },
+        "organization": {
+          "ru": "ВТК «Кабардино-Балкария» («1 КБР»)",
+          "en": "Kabardino-Balkaria State TV («1 KBR»)",
+          "ady": "",
+          "tr": ""
+        },
+        "description": {
+          "ru": "Программы о культуре, истории, этнографии и фольклоре адыгов. Снято несколько десятков телепередач на эти темы.",
+          "en": "Programmes on the culture, history, ethnography, and folklore of the Circassians. Produced several dozen television shows on these topics.",
+          "ady": "",
+          "tr": ""
+        },
         "url": null
       },
       {
-        "period": "2015 – 2018",
-        "title": "Соучредитель движения «Нарт Хэку»",
-        "organization": "Молодёжное общественное движение",
-        "description": "Культурный и социальный активизм: организация первых за долгое время всечеркесских игрищ «Хэгъэгу джэгушхуэ», детских игр «Джэгурыгу», Дней Черкесского флага и костюма, Дня траура 21 мая и других мероприятий.",
+        "period": { "ru": "2015 – 2018", "en": "2015 – 2018", "ady": "", "tr": "" },
+        "title": {
+          "ru": "Соучредитель движения «Нарт Хэку»",
+          "en": "Co-founder of the «Nart Heku» movement",
+          "ady": "",
+          "tr": ""
+        },
+        "organization": {
+          "ru": "Молодёжное общественное движение",
+          "en": "Youth public movement",
+          "ady": "",
+          "tr": ""
+        },
+        "description": {
+          "ru": "Культурный и социальный активизм: организация первых за долгое время всечеркесских игрищ «Хэгъэгу джэгушхуэ», детских игр «Джэгурыгу», Дней Черкесского флага и костюма, Дня траура 21 мая и других мероприятий.",
+          "en": "Cultural and social activism: organising the first all-Circassian games «Hegegu Jegushhue» in many years, the children's games «Jegurygu», Circassian Flag and Costume Days, the Day of Mourning on 21 May, and other events.",
+          "ady": "",
+          "tr": ""
+        },
         "url": null
       }
     ]
@@ -204,25 +264,67 @@
     "title": { "ru": "Образование", "en": "Education", "ady": "Еджэныгъэ", "tr": "Eğitim" },
     "items": [
       {
-        "period": "2014 – 2016",
-        "degree": "Магистратура. Журналистика",
-        "institution": "КБГУ им. Х.М. Бербекова",
-        "location": "Нальчик",
-        "highlights": ["Журналистика", "Медиаисследования", "Адыгская культура"]
+        "period": { "ru": "2014 – 2016", "en": "2014 – 2016", "ady": "", "tr": "" },
+        "degree": {
+          "ru": "Магистратура. Журналистика",
+          "en": "Master's degree. Journalism",
+          "ady": "",
+          "tr": ""
+        },
+        "institution": {
+          "ru": "КБГУ им. Х.М. Бербекова",
+          "en": "Kh.M. Berbekov Kabardino-Balkarian State University",
+          "ady": "",
+          "tr": ""
+        },
+        "location": { "ru": "Нальчик", "en": "Nalchik", "ady": "", "tr": "" },
+        "highlights": [
+          { "ru": "Журналистика", "en": "Journalism", "ady": "", "tr": "" },
+          { "ru": "Медиаисследования", "en": "Media studies", "ady": "", "tr": "" },
+          { "ru": "Адыгская культура", "en": "Circassian culture", "ady": "", "tr": "" }
+        ]
       },
       {
-        "period": "2010 – 2014",
-        "degree": "Специалитет. Менеджмент организации",
-        "institution": "КБГУ им. Х.М. Бербекова — Экономический факультет",
-        "location": "Нальчик",
-        "highlights": ["Экономика", "Менеджмент", "Организационное управление"]
+        "period": { "ru": "2010 – 2014", "en": "2010 – 2014", "ady": "", "tr": "" },
+        "degree": {
+          "ru": "Специалитет. Менеджмент организации",
+          "en": "Specialist degree. Organisational management",
+          "ady": "",
+          "tr": ""
+        },
+        "institution": {
+          "ru": "КБГУ им. Х.М. Бербекова — Экономический факультет",
+          "en": "Kh.M. Berbekov Kabardino-Balkarian State University — Faculty of Economics",
+          "ady": "",
+          "tr": ""
+        },
+        "location": { "ru": "Нальчик", "en": "Nalchik", "ady": "", "tr": "" },
+        "highlights": [
+          { "ru": "Экономика", "en": "Economics", "ady": "", "tr": "" },
+          { "ru": "Менеджмент", "en": "Management", "ady": "", "tr": "" },
+          { "ru": "Организационное управление", "en": "Organisational management", "ady": "", "tr": "" }
+        ]
       },
       {
-        "period": "2007 – 2010",
-        "degree": "Менеджмент организации",
-        "institution": "Колледж информационных технологий и экономики при КБГУ",
-        "location": "Нальчик",
-        "highlights": ["Информационные технологии", "Экономика", "Менеджмент"]
+        "period": { "ru": "2007 – 2010", "en": "2007 – 2010", "ady": "", "tr": "" },
+        "degree": {
+          "ru": "Менеджмент организации",
+          "en": "Organisational management",
+          "ady": "",
+          "tr": ""
+        },
+        "institution": {
+          "ru": "Колледж информационных технологий и экономики при КБГУ",
+          "en": "College of Information Technology and Economics at KBSU",
+          "ady": "",
+          "tr": ""
+        },
+        "location": { "ru": "Нальчик", "en": "Nalchik", "ady": "", "tr": "" },
+        "highlights": [
+          { "ru": "Информационные технологии", "en": "Information technology", "ady": "", "tr": "" },
+          { "ru": "Экономика", "en": "Economics", "ady": "", "tr": "" },
+          { "ru": "Менеджмент", "en": "Management", "ady": "", "tr": "" }
+        ]
       }
     ]
   },
