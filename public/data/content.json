@@ -20,7 +20,7 @@
   },
 
   "home": {
-    "photo": null,
+    "photo": "/assets/photo.jpg",
     "initials": "АШ",
     "name": "Астемир Шебзухов",
     "subtitle": {
