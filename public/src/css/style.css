@@ -590,9 +590,9 @@ section { padding: 5rem 0; }
     font-size: 0.85rem;
 }
 
-.footer .container { background: transparent; }
+.footer .container { background: transparent; text-align: center; }
 
-.footer p { color: inherit; }
+.footer p { color: inherit; text-align: center; }
 
 .footer-disclaimer {
     font-size: 0.7rem;
