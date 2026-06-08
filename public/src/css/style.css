@@ -592,11 +592,11 @@ section { padding: 5rem 0; }
 
 .footer .container { background: transparent; text-align: center; }
 
-.footer p { color: inherit; text-align: center; }
+.footer p { color: rgba(255,255,255,0.8) !important; text-align: center; }
 
 .footer-disclaimer {
     font-size: 0.7rem;
-    color: rgba(255,255,255,0.55);
+    color: rgba(255,255,255,0.55) !important;
     max-width: 560px;
     margin: 0.6rem auto 0;
     line-height: 1.55;
@@ -781,5 +781,3 @@ body, .navbar, .project-card, .timeline-card-body,
 
 /* ── Dark: loading & footer ────────────────────────────────────────── */
 [data-theme="dark"] .loading            { background: var(--bg); color: var(--text-light); }
-[data-theme="dark"] .footer             { color: #e8f0ea !important; }
-[data-theme="dark"] .footer-disclaimer  { color: rgba(232,240,234,0.6) !important; }
