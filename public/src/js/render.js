@@ -91,7 +91,9 @@ function renderNav(c) {
 
     nav.innerHTML = `
         <div class="nav-container">
-            <a href="/" class="logo" aria-label="На главную"></a>
+            <a href="/" class="logo" aria-label="На главную">
+                <img src="/assets/tamga.png" alt="Тамга" class="logo-tamga">
+            </a>
             <ul class="nav-links" id="navLinks" role="list">
                 <li><a href="#home"      ${dataAttrs(n.home)}>${t(n.home)}</a></li>
                 <li><a href="#about"     ${dataAttrs(n.about)}>${t(n.about)}</a></li>
