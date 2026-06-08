@@ -22,7 +22,12 @@
   "home": {
     "photo": "/assets/photo.jpg",
     "initials": "АШ",
-    "name": "Астемир Шебзухов",
+    "name": {
+      "ru":  "Астемир Шебзухов",
+      "en":  "Astemir Shebzukho",
+      "ady": "Шэбзухъу Астэмыр",
+      "tr":  "Astemir Şebzuho"
+    },
     "subtitle": {
       "ru":  "Научный журналист · Генеалог · Преподаватель черкесского языка",
       "en":  "Science journalist · Genealogist · Circassian language teacher",
@@ -208,6 +213,11 @@
   },
 
   "footer": {
-    "name": "Астемир Шебзухов"
+    "name": {
+      "ru":  "Астемир Шебзухов",
+      "en":  "Astemir Shebzukho",
+      "ady": "Шэбзухъу Астэмыр",
+      "tr":  "Astemir Şebzuho"
+    }
   }
 }

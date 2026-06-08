@@ -138,7 +138,7 @@ function renderHome(h, meta) {
     section.innerHTML = `
         <div class="hero-content">
             ${avatarHTML}
-            <h1>${h.name}</h1>
+            <h1 ${dataAttrs(h.name)}>${t(h.name)}</h1>
             <p class="subtitle" ${dataAttrs(h.subtitle)}>${t(h.subtitle)}</p>
             <div class="cta-buttons">
                 <a href="#about" class="cta-button" ${dataAttrs(h.cta)}>${t(h.cta)}</a>
@@ -287,7 +287,7 @@ function renderFooter(c) {
     const year = new Date().getFullYear();
     footer.innerHTML = `
         <div class="container">
-            <p>© ${year} ${c.footer.name}</p>
+            <p>© ${year} <span ${dataAttrs(c.footer.name)}>${t(c.footer.name)}</span></p>
             <p class="footer-disclaimer">Instagram и Facebook — продукты компании Meta, деятельность которой запрещена и признана на территории РФ экстремистской. Также экстремистскими признаны WhatsApp и Telegram.</p>
         </div>
     `;
