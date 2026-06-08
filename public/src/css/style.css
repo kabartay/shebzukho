@@ -590,6 +590,10 @@ section { padding: 5rem 0; }
     font-size: 0.85rem;
 }
 
+.footer .container { background: transparent; }
+
+.footer p { color: inherit; }
+
 .footer-disclaimer {
     font-size: 0.7rem;
     color: rgba(255,255,255,0.55);
