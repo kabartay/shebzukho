@@ -156,8 +156,8 @@
     "title": { "ru": "Контакты", "en": "Contact", "ady": "ЗэпыщIэныгъэ", "tr": "İletişim" },
     "intro": {
       "ru":  "Если вы хотите обсудить сотрудничество, заказать исследование или просто написать — я буду рад ответить.",
-      "en":  "If you'd like to discuss collaboration, commission research, or simply say hello — I'd be glad to hear from you.",
-      "ady": "ЗэдэлэжьэнымкIэ, щIэупщIэн е тхэн хуейуэ щытмэ — сыщогуфIыкI.",
+      "en":  "Whether you want to collaborate, commission a piece of research, or simply reach out — I'd love to hear from you.",
+      "ady": "Фыкъыздэлэжьэну, си Iуэхухэм фыкъыхыхьэну фыхуеймэ, — фыкъысхуэтхэ.",
       "tr":  "İşbirliği tartışmak, araştırma sipariş etmek veya sadece merhaba demek istiyorsanız — sizden haber almaktan memnuniyet duyarım."
     },
     "items": [
@@ -215,8 +215,8 @@
   "footer": {
     "name": {
       "ru":  "Астемир Шебзухов",
-      "en":  "Astemir Shebzukho",
-      "ady": "Шэбзухъу Астэмыр",
+      "en":  "Astemir Shebzukhov",
+      "ady": "Шыбзыхъуэ Iэстемыр",
       "tr":  "Astemir Şebzuho"
     }
   }
