@@ -102,6 +102,16 @@ git push origin v1.0.0
 
 GitHub Actions автоматически создаст Release с ZIP-архивом папки `public/`.
 
+> ⚠️ **Создавайте релизы только через консоль** (команды выше).
+> Если создавать релиз вручную на сайте GitHub (кнопка «Draft a new release»),
+> workflow не срабатывает, и легко случайно поставить галочку «Set as a pre-release».
+>
+> Если релиз всё же оказался pre-release — исправьте одной командой:
+>
+> ```bash
+> gh release edit v1.0.0 --prerelease=false --latest
+> ```
+
 ---
 
 ## 🔑 Переменные окружения
