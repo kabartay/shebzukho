@@ -768,4 +768,5 @@ body, .navbar, .project-card, .timeline-card-body,
 
 /* ── Dark: loading & footer ────────────────────────────────────────── */
 [data-theme="dark"] .loading            { background: var(--bg); color: var(--text-light); }
-[data-theme="dark"] .footer             { color: rgba(255,255,255,0.38); }
+[data-theme="dark"] .footer             { color: rgba(255,255,255,0.75); }
+[data-theme="dark"] .footer-disclaimer  { color: rgba(255,255,255,0.5); }
