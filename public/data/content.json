@@ -1,86 +1,129 @@
 {
   "meta": {
     "name": {
-      "ru":  "Астемир Шебзухов",
-      "en":  "Astemir Shebzukhov",
+      "ru": "Астемир Шебзухов",
+      "en": "Astemir Shebzukhov",
       "ady": "Шыбзыхъуэ Iэстемыр",
-      "tr":  "Astemir Şebzuho"
+      "tr": "Astemir Şebzuho"
     },
     "tagline": {
-      "ru":  "Научный журналист · Генеалог · Преподаватель черкесского языка",
-      "en":  "Journalist · Genealogist · Circassian language teacher",
+      "ru": "Научный журналист · Генеалог · Преподаватель черкесского языка",
+      "en": "Journalist · Genealogist · Circassian language teacher",
       "ady": "ЩIэныгъэ журнэлист · ЛIакъуэдж · Адыгэбзэ егъэджакIуэ",
-      "tr":  "Bilim gazetecisi · Soybilimci · Çerkes dili öğretmeni"
+      "tr": "Bilim gazetecisi · Soybilimci · Çerkes dili öğretmeni"
     },
     "description": "Астемир Шебзухов — научный журналист, генеалог, преподаватель черкесского языка. Исследователь адыгской культуры, истории и языка.",
     "url": "https://shebzukho.com"
   },
-
   "nav": {
-    "home":      { "ru": "Главная",      "en": "Home",       "ady": "ХэщIапIэ",       "tr": "Ana Sayfa"   },
-    "about":     { "ru": "Обо мне",      "en": "About",      "ady": "Сэ стеухуауэ",    "tr": "Hakkımda"    },
-    "activity":  { "ru": "Деятельность", "en": "Activities", "ady": "Лэжьыгъэ",        "tr": "Faaliyetler" },
-    "education": { "ru": "Образование",  "en": "Education",  "ady": "ЩIэныгъэ",        "tr": "Eğitim"      },
-    "contact":   { "ru": "Контакты",     "en": "Contact",    "ady": "ЗэпыщIэныгъэ",    "tr": "İletişim"    }
+    "home": {
+      "ru": "Главная",
+      "en": "Home",
+      "ady": "ХэщIапIэ",
+      "tr": "Ana Sayfa"
+    },
+    "about": {
+      "ru": "Обо мне",
+      "en": "About",
+      "ady": "Сэ стеухуауэ",
+      "tr": "Hakkımda"
+    },
+    "activity": {
+      "ru": "Деятельность",
+      "en": "Activities",
+      "ady": "Лэжьыгъэ",
+      "tr": "Faaliyetler"
+    },
+    "education": {
+      "ru": "Образование",
+      "en": "Education",
+      "ady": "ЩIэныгъэ",
+      "tr": "Eğitim"
+    },
+    "contact": {
+      "ru": "Контакты",
+      "en": "Contact",
+      "ady": "ЗэпыщIэныгъэ",
+      "tr": "İletişim"
+    }
   },
-
   "home": {
     "photo": "/assets/photo.jpg",
     "initials": "АШ",
     "name": {
-      "ru":  "Астемир Шебзухов",
-      "en":  "Astemir Shebzukhov",
+      "ru": "Астемир Шебзухов",
+      "en": "Astemir Shebzukhov",
       "ady": "Шыбзыхъуэ Iэстемыр",
-      "tr":  "Astemir Şebzuho"
+      "tr": "Astemir Şebzuho"
     },
     "subtitle": {
-      "ru":  "Научный журналист · Генеалог · Преподаватель черкесского языка",
-      "en":  "Journalist · Genealogist · Circassian language teacher",
+      "ru": "Научный журналист · Генеалог · Преподаватель черкесского языка",
+      "en": "Journalist · Genealogist · Circassian language teacher",
       "ady": "ЩIэныгъэ журнэлист · ЛIакъуэдж · Адыгэбзэ егъэджакIуэ",
-      "tr":  "Bilim gazetecisi · Soybilimci · Çerkes dili öğretmeni"
+      "tr": "Bilim gazetecisi · Soybilimci · Çerkes dili öğretmeni"
     },
     "cta": {
-      "ru":  "Узнать больше",
-      "en":  "Learn more",
+      "ru": "Узнать больше",
+      "en": "Learn more",
       "ady": "Нэхъ хэгъуэзэн",
-      "tr":  "Daha fazla"
+      "tr": "Daha fazla"
     },
     "social": [
-      { "label": "Instagram",  "url": "https://www.instagram.com/shebzukhoastemir", "type": "instagram" },
-      { "label": "YouTube",    "url": "https://www.youtube.com/@Astemir_Shebzukho", "type": "youtube" },
-      { "label": "Telegram",   "url": "https://t.me/bgiris_gurbian", "type": "telegram" },
-      { "label": "ВКонтакте", "url": "https://vk.com/shebzukhoastemir", "type": "vk" }
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/shebzukhoastemir",
+        "type": "instagram"
+      },
+      {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/@Astemir_Shebzukho",
+        "type": "youtube"
+      },
+      {
+        "label": "Telegram",
+        "url": "https://t.me/bgiris_gurbian",
+        "type": "telegram"
+      },
+      {
+        "label": "ВКонтакте",
+        "url": "https://vk.com/shebzukhoastemir",
+        "type": "vk"
+      }
     ]
   },
-
   "about": {
-    "title": { "ru": "Обо мне", "en": "About Me", "ady": "Сэ стеухуауэ", "tr": "Hakkımda" },
+    "title": {
+      "ru": "Обо мне",
+      "en": "About Me",
+      "ady": "Сэ стеухуауэ",
+      "tr": "Hakkımda"
+    },
     "paragraphs": [
-     {
+      {
         "ru": "С марта 2026 года веду онлайн-подкасты **«Гъэрэ щIырэ. Свет и тьма черкесского бытия»**, в рамках которых занимаюсь **реконструкцией образа жизни черкесов конца XVIII – начала XIX вв.** Обращаясь к различным областям знаний (генетика, лингвистика, археология, этнография, фольклористика, история и т.д.) и анализируя большой массив накопленных данных, я объясняю доступным языком, чем жили черкесы в обозначенный период времени. **Цель — дать для широкой аудитории ясную, неприукрашенную картину адыгской действительности.** !!Подписка платная!!",
         "en": "Since March 2026 I have been hosting the online podcast series **«Gare Shchire. Light and Darkness of Circassian Life»**, in which I work on **reconstructing the way of life of the Circassians in the late 18th – early 19th centuries**. Drawing on a range of disciplines (genetics, linguistics, archaeology, ethnography, folklore studies, history, and others) and analysing a large body of accumulated data, I explain in accessible language what Circassian life was really like in that period. **The goal is to give a wide audience a clear, unvarnished picture of Circassian life.** !!Paid subscription!!",
         "ady": "2026 гъэм и гъатхэпэ мазэ лъандэрэ **«Гъэрэ щIырэ»** пэдкастхэр Iонлайну изогъэкIуэкI. Прэектым ипкъ иткIэ **адыгэм XVIII лIэщIыгъуэм икIэхэм – XIX ипэхэм ирихьэлIэу яIа псэукIэр зэфIызогъэувэж.** ЩIэныгъэ зэхуэмыдэхэр (генетикэр, лингвистикэр, Iэрхиэлогиер, Iетнэграфиер, IуэрыIуатэр, тхыдэр, н.къ.) къэзгъэщхьэпэкIэрэ, къэзгъэлажьэкIэрэ щIэдэIуакIуэхэм зэрыхъукIэ нэхъ гурыIуэгъуафIэу Iуэхур зытетар ябгъэдызолъхьэж. **Си пщэрылъыр – адыгэм я блэкIар егъэлея, щIэгъэхуэбжьа хэмыту наIуэ къэсщIыжынырщ.** !!Прэектым укъыхыхьэныр пщIэ и уасэщ!!",
         "tr": "Mart 2026'dan beri **«Гъэрэ щIырэ, Çerkes Yaşamının Işığı ve Karanlığı»** adlı çevrimiçi podcast'i sunuyorum; bu projede **18. yüzyılın sonları ile 19. yüzyılın başlarındaki Çerkes yaşam biçimini yeniden yapılandırıyorum.** Çeşitli bilgi alanlarından (genetik, dilbilim, arkeoloji, etnografi, folklor, tarih vb.) yararlanarak ve birikmiş geniş bir veri kümesini analiz ederek, Çerkeslerin bu dönemde nasıl yaşadığını anlaşılır bir dilde açıklıyorum. **Amaç, geniş bir kitleye Çerkes gerçekliğinin net ve süslenmemiş bir resmini sunmaktır.** !!Abonelik ücretlidir!!"
       },
-    {
+      {
         "ru": "В области черкесского языкознания мои интересы сводятся к идее **создания лингвистического корпуса, разработке методики преподавания и формированию полного лексического фонда языка**. Работа в этих направлениях ведётся вместе с единомышленниками в рамках языкового клуба [«Djarez»](https://www.instagram.com/djarez.club). В ноябре 2025 года был опубликован первый вариант [корпуса черкесского языка](https://corpus.djarez.club/), разработанный совместно с Международной лабораторией языковой конвергенции и Школой лингвистики НИУ «Высшая школа экономики» (Кс. Дунаева, С. Кузнецова, А.Д. Ландер, Ю.А. Ландер). В первом варианте корпус вобрал в себя **58 млн словоформ на двух диалектах черкесского языка** — на данный момент это наиболее обширная база электронных текстов на адыгском языке. Ведётся непрерывная работа по совершенствованию функционала корпуса и пополнению текстовой базы. Также разрабатываю **методику преподавания кабардинского диалекта черкесского языка в онлайн-формате**; в дальнейшем собираюсь открыть **курсы по обучению адыгэбзэ**.",
         "en": "In the field of Circassian linguistics my interests centre on **building a linguistic corpus, developing a teaching methodology, and compiling a comprehensive lexicon of the language**. This work is carried out together with like-minded colleagues within the [«Djarez»](https://www.instagram.com/djarez.club) language club. In November 2025 the first version of the [Circassian language corpus](https://corpus.djarez.club/) was published, developed jointly with the International Laboratory of Language Convergence and the School of Linguistics at HSE University (Ks. Dunaeva, S. Kuznetsova, A.D. Lander, Yu.A. Lander). In its first release the corpus contains **58 million word forms across two dialects of Circassian** — currently the largest collection of electronic texts in the Circassian language. Continuous work is underway to improve the corpus's functionality and expand its text base. I am also developing an **online teaching methodology for the Kabardian dialect of Circassian** and plan to open **Circassian language courses** in the future.",
         "ady": "Адыгэ бзэщIэныгъэм хуэгъэхьауэ жыпIэмэ, си хъуапсапIэхэр зытеухуар **лингвистикэ кIуорпIус щIынырщ, адыгэбзэ егъэджэкIэ системэ зэфIэгъэувэнырщ, адыгэ псалъэлъэ щыз зэхуэхьэсынырщ**. Мы IэнатIэхэм теухуауэ лэжьыгъэр [«Djarez»](https://www.instagram.com/djarez.club) адыгэбзэ клубым къыздыхэт си IуэхущIэгъу-акъылэгъухэм я гъусэу изогъэкIуэкI. 2025 гъэм и щакIуэгъуэ мазэу [адыгэбзэ кIуорпIусым](https://corpus.djarez.club/) и япэрей гъэпсыгъуэр утыку итлъхьауэ щытщ. Ар НИУ ВШЭ-м Бзэ кэнвергенцэмкIэ и дунейпсэ лэбэрэторием (Дунаевэ Кс., Кузнецовэ С., Ландер А., Ландер Ю.) я гъусэу къызэдгъэпэщащ. Япэрей гъэпсыгъуэм адыгэбзэм и псэлъэкIэ зэхуэмыдэхэм щыщу **псалъэпкъ мелуан 58-м щIигъу** къызэщIиубыдащ. НобэкIэ аращ нэхъыбэ дыдэу Iелектрон тексту адыгэбзэкIэ зэхуэхьэса хъуар. КIуорпIусым хузэфIэкIыр егъэфIэкIуэным, псалъэпкъ бжыгъэу хэтыр хэгъэхъуэным увыIэгъуэ имыIэу иужь дитщ. Абы къыщынэмыщIауэ **къэбэрдей псэлъэкIэм и нобэрей Iонлайн егъэджэкIэ системэ** зэфIэзгъэувэну иужь ситщ. ДяпэкIэ **адыгэбзэ Iонлайн-кIуурс** къызэIусхын си гугъэщ. Нобэ адыгэр нэхъ дызыхуэныкъуэхэм щыщщ ди бзэр хамэбзэ егъэджэкIэ къупхъэм иту едгъэджэфыныр. «Djarez» гупым иджыри зы Iуэхушхуэ и пщэ дилъхьэжауэ щытщ – адыгэбзэ псэлъэкIэу хъуам хэт псалъэхэр зэхуэтхьэсыжу лъэIэсыгъуафIэу зы Iонлайн-утыку гуэр итлъхьэжыныр. Абы теухуа лэжьыгъэр ди къару къызэрихькIэ ипэкIэ догъэкIуатэ.",
         "tr": "Çerkesce dilbilimi konusunda ilgi alanlarım **Çerkesce için bir külliyat oluşturma, öğretim yöntemleri geliştirme ve Çerkescenin tam bir sözcüksel fonunu oluşturma** fikrine dayanıyor. Bu alandaki çalışmaları, [«Djarez»](https://www.instagram.com/djarez.club) dil kulübü çerçevesinde benim gibi düşünen insanlarla birlikte yürütüyoruz. Kasım 2025'te [Çerkesce metin derlemesinin](https://corpus.djarez.club/) ilk sürümü yayınlandı; bu derleme, Uluslararası Dilbilimsel Yakınsama Laboratuvarı ve Ulusal Araştırma Üniversitesi «Yüksek Ekonomi Okulu» Dilbilim Fakültesi (Ks. Dunaeva, S. Kuznetsova, A.D. Lander, Yu.A. Lander) ile ortaklaşa geliştirilmiştir. İlk sürümü **Çerkes dilinin iki lehçesinde 58 milyon kelime biçimini** içermektedir — şu anda Çerkesce için yapılmış en kapsamlı elektronik metin veri tabanıdır. Derlemenin işlevselliğini geliştirmek ve metin tabanını genişletmek için çalışmalar aralıksız devam etmektedir. Ayrıca **Çerkescenin Kabardey lehçesini çevrimiçi öğretmek için bir metodoloji** geliştiriyorum; gelecekte **Çerkesce kurslar** açmayı planlıyorum. «Djarez» ekibi olarak, Çerkes dilinin tüm kelimelerini herkese açık bir web sitesinde toplama gibi iddialı bir hedef de belirledik."
       },
-     {
+      {
         "ru": "Следующей сферой моих интересов является **исследование генеалогии адыгских родов** ([Tlako Project](https://www.instagram.com/tlako_project)). С 2021 года — соадминистратор [Черкесского ДНК проекта](https://t.me/circassianftdna), поэтому в рамках своих изысканий делаю большой упор на **ДНК-генеалогию**. Ведётся работа и с архивными документами; большим подспорьем в исследованиях служат языковые корпуса и личные электронные базы данных для автоматической обработки массивов информации. При желании заказчика можно **разработать родовое древо, написать книгу и снять документальный фильм о роде**.",
         "en": "Another of my areas of interest is **researching the genealogy of Circassian clans** ([Tlako Project](https://www.instagram.com/tlako_project)). Since 2021 I have been a co-administrator of the [Circassian DNA Project](https://t.me/circassianftdna), so in my research I place great emphasis on **DNA genealogy**. I also work with archival documents; linguistic corpora and personal databases for the automated processing of large data sets are invaluable tools in this research. At a client's request, I can **build a family tree, write a book, or produce a documentary film about a clan**.",
         "ady": "Сызыдихьэххэм щыщщ **адыгэ лIакъуэхэм я генеэлогиер джыныр** ([Tlako Project](https://www.instagram.com/tlako_project)). [«Circassian DNA» прэектым](https://t.me/circassianftdna) 2021 гъэ лъандэрэ и Iэдминистратэрхэм сахэтщ. Абы къыхэкIыу си къэхутэныгъэхэм япкъ иткIэ **генетикэр** фIыуэ тегъэщIапIэ сощI. ДауикI, Iэрхив дэкIументхэри гулъытэнэшэу къэзгъанэкъым. Си лэжьыгъэм теухуауэ дэIэпыкъуэгъуфI схуохъу зэзгъэпэщауэ сиIэ бзэ корпIусхэр, Iелектрон хъэрзынэщхэр, Iэрхивхэр. Ахэм я фIыгъэкIэ псынщIэ-псынщIэу щIэныгъэпкъ инхэр зэбгъэзахуэ мэхъу.",
         "tr": "Diğer bir ilgi alanım da **Çerkes sülalelerinin soyağaçlarını araştırmaktır** ([Tlako Project](https://www.instagram.com/tlako_project)). 2021'den beri [Çerkes DNA projesinin](https://t.me/circassianftdna) eş-yöneticilerinden biriyim, bu nedenle araştırmalarımda **DNA şeceresine** büyük önem veriyorum. Elbette arşiv belgeleriyle de çalışıyoruz. Büyük veri kümelerinin otomatik işlenmesini sağlayan dilsel derlemeler ve kişisel elektronik veri tabanları araştırmalarıma çok yardımcı oluyor. Talep üzerine **soy ağacı oluşturma, kitap yazma veya aileyi anlatan bir belgesel film çekme** hizmetleri sunabiliyorum."
       },
-     {
+      {
         "ru": "С 2019 года реализую проект [«Мэз»](https://www.instagram.com/mez_project) («Лес») о **культуре черкесского садоводства и лесопользования**. За это время изучено множество материалов и осуществлено **10 экспедиций** в различные уголки исторической Черкесии. Удалось записать десятки интервью, зафиксировать большое количество локаций, имеющих краеугольное значение для понимания культуры садоводства и лесопользования черкесов. Результатом проекта должен стать **документальный, научно-популярный фильм**, который можно будет показывать в кинотеатрах.",
         "en": "Since 2019 I have been running the [«Mez»](https://www.instagram.com/mez_project) project («Forest»), focused on **the culture of Circassian horticulture and forest use**. Over this time I have studied a wide range of materials and conducted **10 expeditions** to various corners of historical Circassia. I have recorded dozens of interviews and documented numerous locations that are crucial to understanding Circassian horticulture and forest use. The project is intended to result in a **popular-science documentary** suitable for theatrical release.",
         "ady": "2019 гъэ лъандэрэ [«Мэз»](https://www.instagram.com/mez_project) жыхуиIэ прэектым иужь ситщ. Ар зытеухуар **адыгэм и жыггъэкI, мэззехьэ кIулътIурэращ**. ИджыкIэ Адыгеижьым и къуапэ-кIапэу **10-м хуэдизым зекIуэ** сыщыIащ, щIэныгъэ мэтериал куэд зджащ, щIыпIэ куэдым видиуэ тетхащ, цIыху куэд дгъэуэршэращ. Прэектым кинэтеатырхэм щыбгъэлъагъуэ хъууэ зы **дэкIументал филм** кърикIуэн хуейщ.",
         "tr": "2019'dan beri **Çerkes bahçecilik ve orman kullanımı kültürü** üzerine [«Mez»](https://www.instagram.com/mez_project) («Orman») projesini yürütüyorum. Bu süre zarfında çok sayıda materyal inceledim ve tarihi Çerkesya'nın çeşitli köşelerine **10 keşif gezisi** düzenledim. Onlarca röportaj kaydettim ve Çerkes bahçecilik ile orman kullanımı kültürünü anlamak için çok önemli olan birçok yeri belgeledim. Projenin sonucunda, sinemalarda gösterilebilecek **popüler bilim belgeseli** ortaya çıkması bekleniyor."
       },
-     {
+      {
         "ru": "С 2010 года веду страницы в социальных сетях, посвящённые **вопросам адыгского гуманитарного знания и проблемам современности**. Наиболее крупными площадками являются страницы [«Hunug.media»](https://www.instagram.com/hunug.media), также представленные [ВКонтакте](https://vk.ru/hunug.media), в [Одноклассниках](https://ok.ru/group/hunug.media) и [Facebook](https://www.facebook.com/hunug.media).",
         "en": "Since 2010 I have been running social media pages dedicated to **Circassian humanities and contemporary issues**. The largest of these are the [«Hunug.media»](https://www.instagram.com/hunug.media) pages, also present on [VKontakte](https://vk.ru/hunug.media), [Odnoklassniki](https://ok.ru/group/hunug.media), and [Facebook](https://www.facebook.com/hunug.media).",
         "ady": "2010 гъэм щыщIэдзауэ сэциал медиэхэм **адыгэм и тхыдэм, кIулътIурэм** теухуа напэкIуэцIхэр щызызогъакIуэ. Нэхъ утыку инэIуэу щытыр [«Hunug.media»](https://www.instagram.com/hunug.media) жыхуиIэ напэбгъухэращ — [ВКонтакте](https://vk.ru/hunug.media), [Одноклассники](https://ok.ru/group/hunug.media), [Facebook](https://www.facebook.com/hunug.media).",
@@ -170,12 +213,21 @@
       }
     ]
   },
-
   "activity": {
-    "title": { "ru": "Деятельность", "en": "Activities", "ady": "Лэжьыгъэ", "tr": "Faaliyetler" },
+    "title": {
+      "ru": "Деятельность",
+      "en": "Activities",
+      "ady": "Лэжьыгъэ",
+      "tr": "Faaliyetler"
+    },
     "items": [
       {
-        "period": { "ru": "2021 – наст. вр.", "en": "2021 – present", "ady": "2021 – нобэ", "tr": "2021 – günümüz" },
+        "period": {
+          "ru": "2021 – наст. вр.",
+          "en": "2021 – present",
+          "ady": "2021 – нобэ",
+          "tr": "2021 – günümüz"
+        },
         "title": {
           "ru": "Соадминистратор",
           "en": "Co-administrator",
@@ -197,7 +249,12 @@
         "url": "https://www.circassiandna.com"
       },
       {
-        "period": { "ru": "2020 – 2025", "en": "2020 – 2025", "ady": "2020 – 2025", "tr": "2020 – 2025" },
+        "period": {
+          "ru": "2020 – 2025",
+          "en": "2020 – 2025",
+          "ady": "2020 – 2025",
+          "tr": "2020 – 2025"
+        },
         "title": {
           "ru": "Соучредитель и координатор",
           "en": "Co-founder and coordinator",
@@ -219,7 +276,12 @@
         "url": "https://www.instagram.com/djarez.club"
       },
       {
-        "period": { "ru": "2015 – 2021", "en": "2015 – 2021", "ady": "2015 – 2021", "tr": "2015 – 2021" },
+        "period": {
+          "ru": "2015 – 2021",
+          "en": "2015 – 2021",
+          "ady": "2015 – 2021",
+          "tr": "2015 – 2021"
+        },
         "title": {
           "ru": "Автор и ведущий программ на адыгском языке",
           "en": "Author and host of Circassian-language programmes",
@@ -241,7 +303,12 @@
         "url": null
       },
       {
-        "period": { "ru": "2015 – 2018", "en": "2015 – 2018", "ady": "2015 – 2018", "tr": "2015 – 2018" },
+        "period": {
+          "ru": "2015 – 2018",
+          "en": "2015 – 2018",
+          "ady": "2015 – 2018",
+          "tr": "2015 – 2018"
+        },
         "title": {
           "ru": "Соучредитель движения «Нарт Хэку»",
           "en": "Co-founder of the «Nart Heku» movement",
@@ -264,12 +331,21 @@
       }
     ]
   },
-
   "education": {
-    "title": { "ru": "Образование", "en": "Education", "ady": "ЩIэныгъэ", "tr": "Eğitim" },
+    "title": {
+      "ru": "Образование",
+      "en": "EducationX",
+      "ady": "ЩIэныгъэ",
+      "tr": "Eğitim"
+    },
     "items": [
       {
-        "period": { "ru": "2014 – 2016", "en": "2014 – 2016", "ady": "2014 – 2016", "tr": "2014 – 2016" },
+        "period": {
+          "ru": "2014 – 2016",
+          "en": "2014 – 2016",
+          "ady": "2014 – 2016",
+          "tr": "2014 – 2016"
+        },
         "degree": {
           "ru": "Магистратура. Журналистика",
           "en": "Master's degree. Journalism",
@@ -282,15 +358,40 @@
           "ady": "Х.М. Бербеков и цIэр зезыхьэ КъБКъУ",
           "tr": "H.M. Berbekov Kabardey-Balkar Devlet Üniversitesi"
         },
-        "location": { "ru": "Нальчик", "en": "Nalchik", "ady": "Налшык", "tr": "Nalçik" },
+        "location": {
+          "ru": "Нальчик",
+          "en": "Nalchik",
+          "ady": "Налшык",
+          "tr": "Nalçik"
+        },
         "highlights": [
-          { "ru": "Журналистика", "en": "Journalism", "ady": "Журнэлистикэ", "tr": "Gazetecilik" },
-          { "ru": "Медиаисследования", "en": "Media studies", "ady": "Медиэ къэхутэныгъэ", "tr": "Medya çalışmaları" },
-          { "ru": "Адыгская культура", "en": "Circassian culture", "ady": "Адыгэ кIулътIурэ", "tr": "Çerkes kültürü" }
+          {
+            "ru": "Журналистика",
+            "en": "Journalism",
+            "ady": "Журнэлистикэ",
+            "tr": "Gazetecilik"
+          },
+          {
+            "ru": "Медиаисследования",
+            "en": "Media studies",
+            "ady": "Медиэ къэхутэныгъэ",
+            "tr": "Medya çalışmaları"
+          },
+          {
+            "ru": "Адыгская культура",
+            "en": "Circassian culture",
+            "ady": "Адыгэ кIулътIурэ",
+            "tr": "Çerkes kültürü"
+          }
         ]
       },
       {
-        "period": { "ru": "2010 – 2014", "en": "2010 – 2014", "ady": "2010 – 2014", "tr": "2010 – 2014" },
+        "period": {
+          "ru": "2010 – 2014",
+          "en": "2010 – 2014",
+          "ady": "2010 – 2014",
+          "tr": "2010 – 2014"
+        },
         "degree": {
           "ru": "Специалитет. Менеджмент организации",
           "en": "Specialist degree. Organisational management",
@@ -303,15 +404,40 @@
           "ady": "Х.М. Бербеков и цIэр зезыхьэ КъБКъУ — Iекэномикэ къудамэ",
           "tr": "H.M. Berbekov Kabardey-Balkar Devlet Üniversitesi — Ekonomi Fakültesi"
         },
-        "location": { "ru": "Нальчик", "en": "Nalchik", "ady": "Налшык", "tr": "Nalçik" },
+        "location": {
+          "ru": "Нальчик",
+          "en": "Nalchik",
+          "ady": "Налшык",
+          "tr": "Nalçik"
+        },
         "highlights": [
-          { "ru": "Экономика", "en": "Economics", "ady": "Iекэномикэ", "tr": "Ekonomi" },
-          { "ru": "Менеджмент", "en": "Management", "ady": "Менеджмент", "tr": "Yönetim" },
-          { "ru": "Организационное управление", "en": "Organisational management", "ady": "Iэргэнизацэ унафэ", "tr": "Organizasyon yönetimi" }
+          {
+            "ru": "Экономика",
+            "en": "Economics",
+            "ady": "Iекэномикэ",
+            "tr": "Ekonomi"
+          },
+          {
+            "ru": "Менеджмент",
+            "en": "Management",
+            "ady": "Менеджмент",
+            "tr": "Yönetim"
+          },
+          {
+            "ru": "Организационное управление",
+            "en": "Organisational management",
+            "ady": "Iэргэнизацэ унафэ",
+            "tr": "Organizasyon yönetimi"
+          }
         ]
       },
       {
-        "period": { "ru": "2007 – 2010", "en": "2007 – 2010", "ady": "2007 – 2010", "tr": "2007 – 2010" },
+        "period": {
+          "ru": "2007 – 2010",
+          "en": "2007 – 2010",
+          "ady": "2007 – 2010",
+          "tr": "2007 – 2010"
+        },
         "degree": {
           "ru": "Менеджмент организации",
           "en": "Organisational management",
@@ -324,23 +450,47 @@
           "ady": "КъБКъУ-м и Iинфэрмацэ технэлогиехэмрэ IекэномикэмкIэрэ коледж",
           "tr": "H.M. Berbekov KBDÜ Bilgi Teknolojileri ve Ekonomi Koleji"
         },
-        "location": { "ru": "Нальчик", "en": "Nalchik", "ady": "Налшык", "tr": "Nalçik" },
+        "location": {
+          "ru": "Нальчик",
+          "en": "Nalchik",
+          "ady": "Налшык",
+          "tr": "Nalçik"
+        },
         "highlights": [
-          { "ru": "Информационные технологии", "en": "Information technology", "ady": "Iинфэрмацэ технэлогиехэр", "tr": "Bilgi teknolojileri" },
-          { "ru": "Экономика", "en": "Economics", "ady": "Iекэномикэ", "tr": "Ekonomi" },
-          { "ru": "Менеджмент", "en": "Management", "ady": "Менеджмент", "tr": "Yönetim" }
+          {
+            "ru": "Информационные технологии",
+            "en": "Information technology",
+            "ady": "Iинфэрмацэ технэлогиехэр",
+            "tr": "Bilgi teknolojileri"
+          },
+          {
+            "ru": "Экономика",
+            "en": "Economics",
+            "ady": "Iекэномикэ",
+            "tr": "Ekonomi"
+          },
+          {
+            "ru": "Менеджмент",
+            "en": "Management",
+            "ady": "Менеджмент",
+            "tr": "Yönetim"
+          }
         ]
       }
     ]
   },
-
   "contact": {
-    "title": { "ru": "Контакты", "en": "Contact", "ady": "ЗэпыщIэныгъэ", "tr": "İletişim" },
+    "title": {
+      "ru": "Контакты",
+      "en": "Contact",
+      "ady": "ЗэпыщIэныгъэ",
+      "tr": "İletişim"
+    },
     "intro": {
-      "ru":  "Если вы хотите обсудить сотрудничество, заказать исследование или просто написать — я буду рад ответить.",
-      "en":  "Whether you want to collaborate, commission a piece of research, or simply reach out — I'd love to hear from you.",
+      "ru": "Если вы хотите обсудить сотрудничество, заказать исследование или просто написать — я буду рад ответить.",
+      "en": "Whether you want to collaborate, commission a piece of research, or simply reach out — I'd love to hear from you.",
       "ady": "Фыкъыздэлэжьэну, си Iуэхухэм фыкъыхыхьэну фыхуеймэ, — фыкъысхуэтхэ.",
-      "tr":  "İşbirliği tartışmak, araştırma sipariş etmek veya sadece merhaba demek istiyorsanız — sizden haber almaktan memnuniyet duyarım."
+      "tr": "İşbirliği tartışmak, araştırma sipariş etmek veya sadece merhaba demek istiyorsanız — sizden haber almaktan memnuniyet duyarım."
     },
     "items": [
       {
@@ -393,19 +543,18 @@
       }
     ]
   },
-
   "footer": {
     "name": {
-      "ru":  "Астемир Шебзухов",
-      "en":  "Astemir Shebzukhov",
+      "ru": "Астемир Шебзухов",
+      "en": "Astemir Shebzukhov",
       "ady": "Шыбзыхъуэ Iэстемыр",
-      "tr":  "Astemir Şebzuho"
+      "tr": "Astemir Şebzuho"
     },
     "disclaimer": {
-      "ru":  "Instagram и Facebook — продукты компании Meta, деятельность которой запрещена и признана на территории РФ экстремистской. Также экстремистскими признаны WhatsApp и Telegram.",
-      "en":  "Instagram and Facebook are products of Meta, whose activities are banned and designated as extremist in the Russian Federation. WhatsApp and Telegram are also designated as extremist.",
+      "ru": "Instagram и Facebook — продукты компании Meta, деятельность которой запрещена и признана на территории РФ экстремистской. Также экстремистскими признаны WhatsApp и Telegram.",
+      "en": "Instagram and Facebook are products of Meta, whose activities are banned and designated as extremist in the Russian Federation. WhatsApp and Telegram are also designated as extremist.",
       "ady": "Instagram-мрэ Facebook-мрэ Iекстремисту къалъытэу зи Iуэхухэр УФ-м щагъэбыда Meta кэмпанием и прэдуктщ. КъыщынэмыщIауэ Iекстремистыу къалъытащ WhatsApp-мрэ Telegram-мрэ.",
-      "tr":  "Instagram ve Facebook, Rusya Federasyonu'nda yasaklanan ve aşırıcı olarak kabul edilen Meta şirketinin ürünleridir. WhatsApp ve Telegram da aşırıcı olarak kabul edilmiştir."
+      "tr": "Instagram ve Facebook, Rusya Federasyonu'nda yasaklanan ve aşırıcı olarak kabul edilen Meta şirketinin ürünleridir. WhatsApp ve Telegram da aşırıcı olarak kabul edilmiştir."
     }
   }
 }
