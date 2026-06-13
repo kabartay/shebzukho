@@ -1,0 +1,176 @@
+backend:
+  name: github
+  repo: kabartay/shebzukho
+  branch: main
+  # ⚠️  ВАЖНО: замените на URL вашего OAuth-прокси после его деплоя.
+  #     Инструкция — в docs/DEPLOY.md, раздел «CMS / Админка».
+  base_url: https://shebzukho-cms.onrender.com
+
+# Язык интерфейса админки
+locale: ru
+site_url: https://shebzukho.com
+display_url: https://shebzukho.com
+
+# Куда CMS сохраняет загруженные изображения
+media_folder: "public/assets"
+public_folder: "/assets"
+
+collections:
+  - name: content
+    label: "Содержимое сайта"
+    delete: false
+    files:
+      - name: site
+        label: "Сайт — все разделы"
+        file: "public/data/content.json"
+        description: "Весь текст сайта на 4 языках. Раскройте нужный раздел, отредактируйте и нажмите «Сохранить»."
+        editor:
+          preview: false
+        fields:
+          # ── МЕТА (SEO) ─────────────────────────────────────────
+          - label: "Мета (SEO)"
+            name: meta
+            widget: object
+            collapsed: true
+            fields:
+              - label: "Имя"
+                name: name
+                widget: object
+                fields: &ml_string
+                  - { label: "Русский (RU)", name: ru, widget: string }
+                  - { label: "English (EN)", name: en, widget: string, required: false }
+                  - { label: "Адыгэбзэ (ADY)", name: ady, widget: string, required: false }
+                  - { label: "Türkçe (TR)", name: tr, widget: string, required: false }
+              - { label: "Слоган", name: tagline, widget: object, fields: *ml_string }
+              - { label: "Описание (для поисковиков)", name: description, widget: text }
+              - { label: "URL сайта", name: url, widget: string }
+          # ── МЕНЮ ───────────────────────────────────────────────
+          - label: "Меню (навигация)"
+            name: nav
+            widget: object
+            collapsed: true
+            fields:
+              - { label: "Главная", name: home, widget: object, fields: *ml_string }
+              - { label: "Обо мне", name: about, widget: object, fields: *ml_string }
+              - { label: "Деятельность", name: activity, widget: object, fields: *ml_string }
+              - { label: "Образование", name: education, widget: object, fields: *ml_string }
+              - { label: "Контакты", name: contact, widget: object, fields: *ml_string }
+          # ── ГЛАВНАЯ (HERO) ─────────────────────────────────────
+          - label: "Главная страница"
+            name: home
+            widget: object
+            collapsed: true
+            fields:
+              - { label: "Фотография", name: photo, widget: image, required: false }
+              - { label: "Инициалы", name: initials, widget: string, required: false }
+              - { label: "Имя", name: name, widget: object, fields: *ml_string }
+              - { label: "Подзаголовок", name: subtitle, widget: object, fields: *ml_string }
+              - { label: "Кнопка (CTA)", name: cta, widget: object, fields: *ml_string }
+              - label: "Соцсети"
+                name: social
+                widget: list
+                collapsed: true
+                summary: "{{fields.type}} — {{fields.label}}"
+                fields:
+                  - { label: "Подпись", name: label, widget: string }
+                  - { label: "Ссылка (URL)", name: url, widget: string }
+                  - label: "Тип (иконка)"
+                    name: type
+                    widget: select
+                    options: [instagram, youtube, telegram, vk, facebook, ok]
+          # ── ОБО МНЕ ────────────────────────────────────────────
+          - label: "Обо мне"
+            name: about
+            widget: object
+            collapsed: true
+            fields:
+              - { label: "Заголовок раздела", name: title, widget: object, fields: *ml_string }
+              - label: "Абзацы"
+                name: paragraphs
+                widget: list
+                summary: "{{fields.ru}}"
+                hint: "Форматирование: **жирный**, *курсив*, !!бейдж!!, [текст](ссылка)"
+                fields: &ml_text
+                  - { label: "Русский (RU)", name: ru, widget: text }
+                  - { label: "English (EN)", name: en, widget: text, required: false }
+                  - { label: "Адыгэбзэ (ADY)", name: ady, widget: text, required: false }
+                  - { label: "Türkçe (TR)", name: tr, widget: text, required: false }
+              - label: "Проекты (карточки)"
+                name: projects
+                widget: list
+                collapsed: true
+                summary: "{{fields.icon}} {{fields.title.ru}}"
+                fields:
+                  - { label: "Иконка (эмодзи)", name: icon, widget: string }
+                  - { label: "Название", name: title, widget: object, fields: *ml_string }
+                  - { label: "Описание", name: description, widget: object, fields: *ml_string }
+                  - { label: "Ссылка (URL)", name: url, widget: string, required: false }
+          # ── ДЕЯТЕЛЬНОСТЬ ───────────────────────────────────────
+          - label: "Деятельность"
+            name: activity
+            widget: object
+            collapsed: true
+            fields:
+              - { label: "Заголовок раздела", name: title, widget: object, fields: *ml_string }
+              - label: "Пункты"
+                name: items
+                widget: list
+                collapsed: true
+                summary: "{{fields.period.ru}} — {{fields.title.ru}}"
+                fields:
+                  - { label: "Период", name: period, widget: object, fields: *ml_string }
+                  - { label: "Должность / роль", name: title, widget: object, fields: *ml_string }
+                  - { label: "Организация", name: organization, widget: object, fields: *ml_string }
+                  - { label: "Описание", name: description, widget: object, fields: *ml_text }
+                  - { label: "Ссылка (URL)", name: url, widget: string, required: false }
+          # ── ОБРАЗОВАНИЕ ────────────────────────────────────────
+          - label: "Образование"
+            name: education
+            widget: object
+            collapsed: true
+            fields:
+              - { label: "Заголовок раздела", name: title, widget: object, fields: *ml_string }
+              - label: "Пункты"
+                name: items
+                widget: list
+                collapsed: true
+                summary: "{{fields.period.ru}} — {{fields.degree.ru}}"
+                fields:
+                  - { label: "Период", name: period, widget: object, fields: *ml_string }
+                  - { label: "Степень / диплом", name: degree, widget: object, fields: *ml_string }
+                  - { label: "Учебное заведение", name: institution, widget: object, fields: *ml_string }
+                  - { label: "Город", name: location, widget: object, fields: *ml_string }
+                  - label: "Теги"
+                    name: highlights
+                    widget: list
+                    summary: "{{fields.ru}}"
+                    fields: *ml_string
+          # ── КОНТАКТЫ ───────────────────────────────────────────
+          - label: "Контакты"
+            name: contact
+            widget: object
+            collapsed: true
+            fields:
+              - { label: "Заголовок раздела", name: title, widget: object, fields: *ml_string }
+              - { label: "Вступление", name: intro, widget: object, fields: *ml_text }
+              - label: "Контактные ссылки"
+                name: items
+                widget: list
+                collapsed: true
+                summary: "{{fields.type}} — {{fields.label}}"
+                fields:
+                  - label: "Тип"
+                    name: type
+                    widget: select
+                    options: [whatsapp, email, instagram, vk, facebook, youtube, telegram, ok]
+                  - { label: "Подпись", name: label, widget: string }
+                  - { label: "Ссылка (URL)", name: url, widget: string }
+                  - { label: "Подсказка", name: hint, widget: string, required: false }
+          # ── ПОДВАЛ ─────────────────────────────────────────────
+          - label: "Подвал"
+            name: footer
+            widget: object
+            collapsed: true
+            fields:
+              - { label: "Имя", name: name, widget: object, fields: *ml_string }
+              - { label: "Дисклеймер", name: disclaimer, widget: object, fields: *ml_text }

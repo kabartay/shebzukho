@@ -1,0 +1,16 @@
+{
+  "name": "shebzukho-cms-oauth",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GitHub OAuth provider for the Decap CMS admin panel of shebzukho.com",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
