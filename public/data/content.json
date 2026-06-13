@@ -17,7 +17,7 @@
   },
 
   "nav": {
-    "home":      { "ru": "Главная",      "en": "Home",       "ady": "ХьэщIапIэм",      "tr": "Ana Sayfa"   },
+    "home":      { "ru": "Главная",      "en": "Home",       "ady": "ХэщIапIэ",       "tr": "Ana Sayfa"   },
     "about":     { "ru": "Обо мне",      "en": "About",      "ady": "Сэ стеухуауэ",    "tr": "Hakkımda"    },
     "activity":  { "ru": "Деятельность", "en": "Activities", "ady": "Лэжьыгъэ",        "tr": "Faaliyetler" },
     "education": { "ru": "Образование",  "en": "Education",  "ady": "ЩIэныгъэ",        "tr": "Eğitim"      },
