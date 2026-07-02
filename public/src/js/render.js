@@ -7,12 +7,12 @@
         initPage() is already defined by the time the fetch resolves.
      3. After rendering, initPage() is called to wire up UI behaviour.
 
-   LANGUAGES:  ru (Russian) · en (English) · ady (Adyghe) · tr (Turkish)
+    LANGUAGES:  ru (Russian) · ady (Adyghe) · en (English) · tr (Turkish)
    PALETTES:   defined in theme.css, controlled by theme-config.js
    ===================================================================== */
 
 // ── Language system ───────────────────────────────────────────────────
-const LANGS       = ['ru', 'en', 'ady', 'tr'];
+const LANGS       = ['ru', 'ady', 'en', 'tr'];
 const LANG_LABELS = { ru: 'РУ', en: 'EN', ady: 'АДЫ', tr: 'TR' };
 const HTML_LANG   = { ru: 'ru', en: 'en', ady: 'kbd', tr: 'tr' };
 
